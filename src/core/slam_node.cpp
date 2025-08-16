@@ -24,8 +24,8 @@ SlamNode::SlamNode() : Node("ekf_slam_node") {
   this->declare_parameter("data_association.threshold", 5.99);
   this->declare_parameter("data_association.ratio", 0.8);
   this->declare_parameter("scan_downsample.step", 10);
-  this->declare_parameter("map.width", 1500);
-  this->declare_parameter("map.height", 1500);
+  this->declare_parameter("map.width", 500);
+  this->declare_parameter("map.height", 500);
   this->declare_parameter("map.resolution", 0.05);
   this->declare_parameter("map.save_prefix", "map");
 
